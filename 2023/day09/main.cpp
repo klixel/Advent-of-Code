@@ -20,13 +20,8 @@ pair<int64_t, int64_t> predict(vector<int64_t>& array) {
 
 int main() {
 
-#ifdef CMAKE
-    ifstream fin("../2023/day09/input.txt");
-    ofstream fout("../2023/day09/output.txt");
-#else
     ifstream fin("input.txt");
     ofstream fout("output.txt");
-#endif
 
     string line;
     int64_t result1 = 0, result2 = 0;
