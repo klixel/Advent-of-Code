@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <fstream>
-#include <cstdint>
 #include <sstream>
 #include <string>
 #include <utility>
@@ -19,7 +18,6 @@ pair<int64_t, int64_t> predict(vector<int64_t>& array) {
 }
 
 int main() {
-
     ifstream fin("input.txt");
     ofstream fout("output.txt");
 
