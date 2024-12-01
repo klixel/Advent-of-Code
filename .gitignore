@@ -205,3 +205,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# inputs are copyrighted by the author, so I'm not going to include them in the repo
+input.txt
+
+# I also removed the output files to avoid cluttering the repo
+output.txt
